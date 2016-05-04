@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hello World!</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+	<?php
+
+		$emailTo = "saurabh4me@gmail.com";
+		$subject = "I hope this works!";
+		$body = "I think you are great!";
+		$headers = "From:saurabh4me@gmail.com";
+
+		mail($emailTo, $subject, $body, $headers);
+
+	?>
+
+</body>
+</html>
